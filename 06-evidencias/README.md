@@ -22,4 +22,4 @@ Devem ser evitadas a publicação de senhas, dados pessoais desnecessários e ou
 
 Status
 
-Estrutura inicial criada. As evidências serão adicionadas durante o desenvolvimento e a revisão do projeto.
+Estrutura inicial criada. As evidências serão adicionadas durante o desenvolvimento e a revisão do projeto
