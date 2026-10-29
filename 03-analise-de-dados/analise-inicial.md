@@ -46,3 +46,17 @@ Esta é uma análise inicial. Para aprofundar as conclusões, será necessário 
 Instituto Brasileiro de Geografia e Estatística (IBGE). Evolução dos Indicadores Não Monetários de Pobreza e Qualidade de Vida no Brasil, período 2017–2018, Tabela 6b.
 
 https://ftp.ibge.gov.br/Orcamentos_Familiares/Evolucao_dos_Indicadores_nao_Monetarios_de_Pobreza_e_Qualidade_de_Vida_no_Brasil/tabelas_2017_2018_xls.zip
+
+## Comparação entre os estados
+
+Para aprofundar a análise da pobreza multidimensional, foram comparados quatro estados brasileiros: Maranhão, Pará, Santa Catarina e Paraná. A seleção permite observar diferenças entre estados com proporções distintas de pessoas em situação de pobreza multidimensional.
+
+Os dados mostram que a dimensão **Serviços financeiros e padrão de vida** apresenta contribuições elevadas nos quatro estados, variando de 18,7% no Maranhão a 20,0% em Santa Catarina.
+
+Na dimensão **Serviços públicos**, o Pará apresenta 18,6% e o Maranhão 17,4%, enquanto Santa Catarina registra 14,6% e o Paraná 13,1%.
+
+Já em **Transporte e lazer**, Paraná e Santa Catarina apresentam contribuições de 17,3% e 15,8%, respectivamente. No Pará, o valor é de 13,9%, e no Maranhão, de 14,8%.
+
+Essa comparação mostra que a contribuição das dimensões para o IPM-NM varia entre os estados. É importante destacar que esses percentuais representam a contribuição de cada dimensão para o índice, e não a porcentagem de pessoas afetadas por cada problema.
+
+**Fonte:** IBGE — dados referentes ao período de 2017–2018, Tabela 6b.
