@@ -60,3 +60,9 @@ Já em **Transporte e lazer**, Paraná e Santa Catarina apresentam contribuiçõ
 Essa comparação mostra que a contribuição das dimensões para o IPM-NM varia entre os estados. É importante destacar que esses percentuais representam a contribuição de cada dimensão para o índice, e não a porcentagem de pessoas afetadas por cada problema.
 
 **Fonte:** IBGE — dados referentes ao período de 2017–2018, Tabela 6b.
+
+### Gráfico de comparação entre os estados
+
+O gráfico abaixo apresenta a comparação das contribuições das seis dimensões para o IPM-NM nos quatro estados selecionados.
+
+![Gráfico de comparação entre os estados](dados/tratados/grafico-comparacao-estados.png)
