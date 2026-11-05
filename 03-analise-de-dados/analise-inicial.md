@@ -86,7 +86,7 @@ A análise demonstra que não existe uma única dimensão com maior contribuiç�
 
 A dimensão de serviços financeiros e padrão de vida apresentou a maior contribuição em 17 das 27 Unidades da Federação.
 
-Também foram identificadas diferenças importantes nas demais dimensões, mostrando a diversidade dos resultados entre os estados brasileiros.
+Também foram identificadas diferenças importantes entre as dimensões, demonstrando que cada Unidade da Federação apresenta características próprias na composição do IPM-NM.
 
 ### Considerações
 
