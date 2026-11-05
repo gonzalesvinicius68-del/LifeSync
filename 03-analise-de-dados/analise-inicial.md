@@ -65,4 +65,32 @@ Essa comparação mostra que a contribuição das dimensões para o IPM-NM varia
 
 O gráfico abaixo apresenta a comparação das contribuições das seis dimensões para o IPM-NM nos quatro estados selecionados.
 
+## Análise ampliada das seis dimensões nas Unidades da Federação
+
+Para aprofundar a comparação, foram analisadas as contribuições das seis dimensões nas 27 Unidades da Federação, incluindo o Distrito Federal.
+
+Os resultados permitiram identificar os maiores e menores percentuais de contribuição em cada dimensão.
+
+| Dimensão | Maior contribuição | Menor contribuição |
+|---|---|---|
+| Moradia | Roraima (17,8%) | Bahia (13,2%) |
+| Serviços públicos | Amapá (19,7%) | São Paulo (9,0%) |
+| Saúde e alimentação | Rio Grande do Sul (20,3%) | Roraima (13,3%) |
+| Educação | Paraná (18,8%) | Amazonas (16,4%) |
+| Serviços financeiros e padrão de vida | Ceará (20,5%) | Roraima (16,8%) |
+| Transporte e lazer | Goiás (18,9%) | Alagoas (12,9%) |
+
+### Interpretação dos resultados
+
+A análise demonstra que não existe uma única dimensão com maior contribuição em todas as Unidades da Federação.
+
+A dimensão de serviços financeiros e padrão de vida apresentou a maior contribuição em 17 das 27 Unidades da Federação.
+
+Também foram identificadas diferenças importantes nas demais dimensões, mostrando a diversidade dos resultados entre os estados brasileiros.
+
+### Considerações
+
+A comparação das seis dimensões amplia a compreensão do IPM-NM e permite identificar quais aspectos possuem maior contribuição em cada Unidade da Federação.
+
+Os resultados apresentados são referentes ao período de 2017–2018 e não representam necessariamente a situação atual.
 ![Gráfico de comparação entre os estados](dados/tratados/grafico-comparacao-estados.png)
