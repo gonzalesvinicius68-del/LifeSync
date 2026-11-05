@@ -21,8 +21,7 @@ O objetivo desta etapa é organizar, preparar e analisar dados do IBGE, identifi
 │
 ├── documentacao/
 │   ├── dicionario-de-dados.md
-│   ├── fonte-dos-dados.md
-│   └── README.md
+│   └── fonte-dos-dados.md
 │
 ├── preparacao/
 │   └── relatorio-de-preparacao.md
