@@ -53,3 +53,13 @@ Foram comparadas as contribuições das seis dimensões do IPM-NM, utilizando ta
 ## Estado do desenvolvimento
 
 Etapa de análise de dados em desenvolvimento, com organização das bases, documentação, preparação dos dados, visualização gráfica e análise inicial dos resultados.
+
+## Relação da análise com o projeto LifeSync
+
+A análise dos dados do IBGE foi utilizada como uma contextualização socioeconômica complementar ao projeto LifeSync.
+
+Por meio dos indicadores de pobreza multidimensional, educação, moradia, saúde, acesso a serviços públicos e outras dimensões, foi possível observar diferenças nas condições de vida entre as Unidades da Federação brasileiras.
+
+Essas informações contribuem para ampliar a compreensão sobre as diferentes realidades socioeconômicas da população, oferecendo uma perspectiva complementar para a discussão do público-alvo e do contexto social em que uma solução de organização pessoal e controle financeiro poderia ser utilizada.
+
+É importante destacar que os indicadores analisados não medem diretamente a organização pessoal ou financeira dos indivíduos e não comprovam a eficácia das funcionalidades propostas pelo LifeSync.
