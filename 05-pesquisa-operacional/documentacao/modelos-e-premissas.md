@@ -2,19 +2,19 @@
 
 ## 1. Objetivo
 
-Esta documentação apresenta a pesquisa de campo e os modelos de Pesquisa Operacional elaborados para o LifeSync. O trabalho investiga a organização do tempo e o planejamento pessoal e usa modelos matemáticos para simular diferentes distribuições de horas e alternativas para cumprir metas semanais.
+Esta documentação apresenta a pesquisa de campo e os modelos de Pesquisa Operacional elaborados para o LifeSync. O trabalho investiga a organização do tempo e o planejamento pessoal e usa modelos matemáticos para simular distribuições de horas e alternativas para cumprir metas semanais.
 
-A análise está organizada em três partes: pesquisa de campo com respostas obtidas pelo Google Forms; modelo de maximização da pontuação estimada de produtividade e bem-estar; modelo de minimização de custos, com uma variante que minimiza o tempo.
+O notebook está organizado em três partes: pesquisa de campo com respostas do Google Forms; modelo de maximização da pontuação estimada de produtividade e bem-estar; e modelo de minimização de custos, com uma variante que minimiza o tempo.
 
 ## 2. Fontes e tratamento dos dados
 
-A pesquisa de campo foi baseada na planilha exportada do Google Forms, com 15 respostas válidas para 15 perguntas. A coluna de carimbo de data e hora foi retirada da análise por não ser necessária aos cálculos. O notebook contém uma cópia das respostas sem esses horários, de modo que a análise possa ser executada sem carregar a planilha original.
+A pesquisa de campo foi baseada na planilha exportada do Google Forms, com 15 respostas válidas para 15 perguntas. A coluna de carimbo de data e hora foi retirada da análise por não ser necessária aos cálculos. O notebook contém uma cópia das respostas sem esses horários, permitindo reproduzir a análise sem carregar a planilha original.
 
-As respostas da pesquisa são dados observados. Já os pontos, custos, eficiências, metas e limites usados nos modelos matemáticos são premissas definidas pelo grupo. Eles não foram medidos diretamente com os participantes.
+As respostas da pesquisa são dados observados. Os pontos, custos, eficiências, metas e limites usados nos modelos são premissas definidas pelo grupo e não foram medidos diretamente com os participantes.
 
 ## 3. Pesquisa de campo
 
-A análise descritiva calculou frequências e percentuais para as respostas categóricas. Na pergunta sobre funcionalidades, cada participante podia selecionar mais de uma opção; por isso, as porcentagens dessa questão não precisam somar 100%.
+A análise descritiva calculou frequências e percentuais para as respostas categóricas. Na pergunta sobre funcionalidades, cada participante podia selecionar mais de uma opção; por isso, os percentuais dessa questão não precisam somar 100%.
 
 ### Principais resultados
 
@@ -22,19 +22,19 @@ A análise descritiva calculou frequências e percentuais para as respostas cate
 - 8 (53,3%) estudavam e trabalhavam.
 - 9 (60%) responderam que só conseguiam organizar bem o tempo às vezes ou que tinham bastante dificuldade.
 - 6 (40%) apontaram administrar o tempo disponível como a maior dificuldade; 4 (26,7%) indicaram conciliar trabalho e estudos.
-- 7 (46,7%) disseram que memorizavam as tarefas; 4 (26,7%) não usavam um método específico.
+- 7 (46,7%) disseram que memorizavam suas tarefas; 4 (26,7%) não usavam um método específico.
 - 12 (80%) disseram que algumas vezes deixavam de realizar uma atividade importante por falta de organização ou planejamento.
 - 8 (53,3%) disseram que utilizariam um aplicativo que reunisse áreas diferentes da rotina; 3 (20%) responderam talvez e 4 (26,7%) responderam não.
 
 As funcionalidades mais selecionadas foram organização de tarefas e compromissos (12 participantes; 80%), planejamento de estudos (10; 66,7%), organização de descanso e lazer (8; 53,3%), controle financeiro (8; 53,3%) e metas e acompanhamento de progresso (8; 53,3%). Nas respostas abertas, também apareceram sugestões de agenda, lembretes, notificações, simplicidade, personalização e acesso em diferentes dispositivos.
 
-Esses resultados descrevem somente as 15 pessoas que responderam ao formulário. A amostra é pequena e não probabilística, portanto não representa necessariamente todos os usuários potenciais do LifeSync.
+Esses resultados descrevem somente as 15 pessoas que responderam ao formulário. A amostra é pequena e não probabilística; portanto, não representa necessariamente todos os usuários potenciais do LifeSync.
 
 ## 4. Modelo 1 — Maximização da pontuação
 
 ### Objetivo e variáveis
 
-O modelo distribui 140 horas por semana entre seis atividades, buscando maximizar uma pontuação estimada:
+O modelo distribui 140 horas por semana entre seis atividades para maximizar uma pontuação estimada:
 
 - x1: trabalho (horas por semana);
 - x2: estudo;
@@ -43,20 +43,20 @@ O modelo distribui 140 horas por semana entre seis atividades, buscando maximiza
 - x5: lazer;
 - x6: organização pessoal e financeira.
 
-A função objetivo usada no notebook é:
+A função objetivo do notebook é:
 
 **Maximizar Z = 6x1 + 7x2 + 8x3 + 9x4 + 7,5x5 + 6,5x6.**
 
-Os coeficientes representam pontos estimados por hora, numa escala definida pelo grupo. Não são medidas clínicas nem avaliações dos participantes.
+Os coeficientes são pontos estimados por hora, em uma escala definida pelo grupo. Não são medidas clínicas nem avaliações feitas pelos participantes.
 
 ### Restrições
 
-- **Tempo semanal disponível:** x1 + x2 + x3 + x4 + x5 + x6 = 140. O grupo considerou 168 horas na semana, das quais 28 ficam reservadas para refeições, deslocamento e higiene.
+- **Tempo semanal disponível:** x1 + x2 + x3 + x4 + x5 + x6 = 140. O grupo considerou 168 horas na semana, reservando 28 horas para refeições, deslocamento e higiene.
 - **Carga conjunta de trabalho e estudo:** x1 + x2 ≤ 60.
 - **Limites por atividade:** cada cenário estabelece valores mínimos e máximos para as seis variáveis.
 - **Não negatividade:** todas as horas devem ser iguais ou maiores que zero.
 
-Os limites por cenário são premissas do grupo e estão especificados no notebook.
+Os limites de cada cenário também são premissas do grupo e estão descritos no notebook.
 
 ### Resultados dos cenários
 
@@ -70,22 +70,22 @@ Os limites por cenário são premissas do grupo e estão especificados no notebo
 | Organização pessoal/financeira | 2 | 2 | 2 |
 | **Pontuação estimada (Z)** | **1.115,5** | **1.084,0** | **1.095,5** |
 
-A solução apresenta a combinação que maximiza a pontuação dentro dos limites escolhidos para cada cenário. Ela não deve ser interpretada como uma recomendação individual de rotina: o resultado depende dos coeficientes e limites inseridos pelo grupo.
+A solução mostra a combinação que maximiza a pontuação dentro dos limites escolhidos para cada cenário. Não deve ser interpretada como recomendação individual de rotina: depende dos coeficientes e limites inseridos pelo grupo.
 
-### Sensibilidade apresentada
+### Análise de sensibilidade
 
-No cenário equilibrado, o notebook também altera o limite máximo de sono e descanso e a pontuação atribuída ao lazer:
+No cenário equilibrado, o notebook altera o limite máximo de sono e descanso e a pontuação atribuída ao lazer:
 
 | Alteração simulada | Pontuação ótima | Resultado associado |
 |---|---:|---|
 | Máximo de sono = 49 h | 1.063,0 | Cenário viável |
 | Máximo de sono = 56 h | 1.081,5 | Cenário viável |
 | Máximo de sono = 63 h | 1.095,5 | Cenário viável |
-| Pontos do lazer = 6,0 por hora | 1.067,5 | 14 h de lazer |
-| Pontos do lazer = 7,5 por hora | 1.095,5 | 25 h de lazer |
-| Pontos do lazer = 9,5 por hora | 1.145,5 | 25 h de lazer |
+| Pontuação do lazer = 6,0 por hora | 1.067,5 | 14 h de lazer |
+| Pontuação do lazer = 7,5 por hora | 1.095,5 | 25 h de lazer |
+| Pontuação do lazer = 9,5 por hora | 1.145,5 | 25 h de lazer |
 
-Essa análise mostra como a solução matemática muda quando parâmetros estimados são alterados; não comprova que a pontuação corresponda a produtividade ou bem-estar observados na prática.
+A análise mostra como a solução muda quando os parâmetros estimados são alterados. Ela não comprova que a pontuação corresponda à produtividade ou ao bem-estar observados na prática.
 
 ## 5. Modelo 2 — Minimização de custo
 
@@ -93,7 +93,7 @@ Essa análise mostra como a solução matemática muda quando parâmetros estima
 
 O segundo modelo escolhe quantas horas semanais dedicar a diferentes formas de cumprir quatro metas: estudo, saúde, finanças e lazer. O objetivo principal é minimizar o custo estimado.
 
-Para cada alternativa, a variável representa horas por semana. O modelo usa um custo por hora e uma eficiência estimada, expressa em unidades de benefício por hora.
+Cada variável representa horas por semana. O modelo usa um custo por hora e uma eficiência estimada, medida em unidades de benefício por hora.
 
 | Categoria | Alternativa | Custo estimado (R$/h) | Eficiência estimada (unidades/h) | Limite (h/semana) |
 |---|---|---:|---:|---:|
@@ -118,7 +118,7 @@ As unidades de benefício, os custos e os limites são estimativas feitas pelo g
 
 ### Resultado de custo mínimo
 
-O plano de custo mínimo encontrado usa aproximadamente **35,5 horas por semana** e tem custo estimado de **R$ 75,18 por semana**:
+O plano de custo mínimo usa aproximadamente **35,5 horas por semana** e tem custo estimado de **R$ 75,18 por semana**:
 
 | Alternativa escolhida | Horas/semana | Custo semanal estimado |
 |---|---:|---:|
@@ -130,11 +130,11 @@ O plano de custo mínimo encontrado usa aproximadamente **35,5 horas por semana*
 | Lazer em casa | 7,50 | R$ 15,00 |
 | **Total** | **35,46** | **R$ 75,18** |
 
-Os valores apresentados dependem diretamente dos custos e eficiências definidos pelo grupo. Por exemplo, o custo zero atribuído a caminhada e planilha manual é uma premissa do modelo.
+Os resultados dependem diretamente dos custos e eficiências definidos pelo grupo. Por exemplo, o custo zero atribuído à caminhada e à planilha manual é uma premissa do modelo.
 
 ### Variante: minimização de tempo com orçamento limitado
 
-O notebook inclui uma segunda formulação que minimiza o total de horas, mantendo as metas por categoria e limitando o custo a **R$ 120 por semana**. A comparação simulada foi:
+O notebook também apresenta uma formulação que minimiza o total de horas, mantendo as metas por categoria e limitando o custo a **R$ 120 por semana**:
 
 | Cenário | Tempo mínimo estimado | Orçamento usado |
 |---|---:|---:|
@@ -145,9 +145,9 @@ A diferença é de aproximadamente **3,2 horas por semana** nas condições simu
 
 ## 6. Ferramentas e reprodução
 
-O notebook foi desenvolvido em Python e utiliza numpy, pandas, scipy.optimize.linprog, matplotlib e seaborn. O solver linprog resolve os modelos lineares. Para reproduzir os cálculos, abra o notebook do projeto no Google Colab e execute as células em ordem. A seção de pesquisa de campo já incorpora as respostas sem os carimbos de data e hora.
+O notebook foi desenvolvido em Python e utiliza numpy, pandas, scipy.optimize.linprog, matplotlib e seaborn. O solver linprog resolve os modelos lineares. Para reproduzir os cálculos, abra o notebook do projeto no Google Colab e execute as células em ordem. A seção da pesquisa de campo já incorpora as respostas sem os carimbos de data e hora.
 
-O notebook salva gráficos na pasta graficos/ durante a execução. Esses arquivos podem ser mantidos nessa pasta se a equipe quiser versionar os gráficos no GitHub.
+Durante a execução, o notebook salva gráficos na pasta graficos/. A equipe pode versionar esses arquivos no GitHub se quiser manter as imagens dos resultados junto ao projeto.
 
 ## 7. Limitações e interpretação
 
@@ -158,8 +158,8 @@ O notebook salva gráficos na pasta graficos/ durante a execução. Esses arquiv
 - As soluções mudam se os pontos, custos, eficiências, metas ou limites forem alterados.
 - A comparação com a opção de aplicativo é hipotética; não demonstra que o LifeSync já gere economia de tempo ou dinheiro.
 
-Assim, a pesquisa de campo oferece indicações para pensar funcionalidades do LifeSync, enquanto os modelos servem como demonstrações quantitativas de otimização sob premissas explícitas.
+A pesquisa de campo oferece indicações para pensar funcionalidades do LifeSync, enquanto os modelos servem como demonstrações quantitativas de otimização sob premissas explícitas.
 
 ## 8. Arquivo relacionado
 
-O notebook com a análise da pesquisa de campo e os modelos matemáticos está em [cadernos/LifeSync_Pesquisa_Campo_e_Operacional.ipynb](../cadernos/LifeSync_Pesquisa_Campo_e_Operacional.ipynb).
+O notebook com a análise da pesquisa de campo e os modelos matemáticos está em [notebooks/LifeSync_Pesquisa_Campo_e_Operacional.ipynb](../notebooks/LifeSync_Pesquisa_Campo_e_Operacional.ipynb). Ele contém os dados da pesquisa sem os carimbos de data e hora.
