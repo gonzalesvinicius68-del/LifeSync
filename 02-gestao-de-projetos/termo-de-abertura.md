@@ -40,6 +40,10 @@ Formular problemas de pesquisa operacional e analisar possíveis soluções.
 
 Integrar os resultados das disciplinas em uma documentação acadêmica organizada.
 
+4.1
+
+Até 12 de novembro de 2026, analisar 200 avaliações públicas do aplicativo Mobills utilizando Python, calcular indicadores de satisfação, identificar e quantificar as principais categorias de reclamações e elaborar recomendações fundamentadas para os requisitos conceituais do LifeSync, documentando métodos, resultados e limitações da pesquisa.
+
 5. Escopo do projeto
 
 5.1. Incluído no escopo
