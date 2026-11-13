@@ -24,6 +24,10 @@ O projeto LifeSync propõe uma solução conceitual que integra recursos de orga
 
 Desenvolver a documentação e o planejamento de uma solução conceitual denominada LifeSync, destinada a auxiliar na organização pessoal e no acompanhamento financeiro.
 
+3.1 — Objetivo SMART da análise de dados
+
+Analisar, até 12 de novembro de 2026, uma amostra de 200 avaliações públicas do aplicativo Mobills, utilizando Python para calcular indicadores de satisfação, aplicar métodos estatísticos e identificar os principais temas mencionados nas avaliações negativas, produzindo gráficos e conclusões que subsidiem o levantamento de requisitos e o planejamento conceitual do LifeSync.
+
 4. Objetivos específicos
 
 Identificar o problema e as necessidades do público-alvo.
