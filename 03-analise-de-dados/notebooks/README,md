@@ -1,1 +1,34 @@
+# Notebook de Análise de Dados — LifeSync
 
+Esta pasta contém o notebook utilizado na análise exploratória de 200 avaliações públicas do aplicativo Mobills, coletadas da Google Play Store em 06/11/2026.
+
+## Arquivo principal
+
+`LifeSync_Analise_Dados_final.ipynb`
+
+O notebook apresenta:
+- Indicadores de desempenho (KPIs);
+- Estatísticas descritivas;
+- Análise das avaliações positivas, negativas e neutras;
+- Gráficos e visualizações;
+- Identificação de dificuldades e oportunidades de melhoria para o LifeSync.
+
+## Base utilizada
+
+O arquivo `mobills_avaliacoes_tratadas_coleta_06-11-2026.csv` está disponível na pasta `../dados-tratados/`.
+
+O notebook carrega essa base diretamente do GitHub.
+
+## Resultados principais
+
+- Total: 200 avaliações;
+- Positivas: 122 (61%);
+- Negativas: 67 (33,5%);
+- Neutras: 11 (5,5%);
+- Nota média: 3,56.
+
+## Execução
+
+Abra o notebook no Google Colab e execute as células em ordem. É necessária uma conexão com a internet para carregar a base de dados.
+
+Os dados são utilizados exclusivamente para fins acadêmicos.
