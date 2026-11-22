@@ -24,7 +24,7 @@ Avaliações públicas do aplicativo Mobills (Finanças Pessoais), concorrente d
 - Criação de variáveis: `comentario_limpo`, `tamanho_comentario`, `comentario_curto`, `mes` e `classe_nota`
 - Classificação das notas: 1 e 2 = negativa, 3 = neutra, 4 e 5 = positiva
 - Nenhum registro foi removido
-- Base tratada salva em arquivo separado: `dados-tratados/mobills_avaliacoes_tratadas.csv`
+- Base tratada salva em arquivo separado: `dados-tratados/mobills_avaliacoes_tratadas_coleta_06-11-2026.csv`
 
 ## 5. Validação
 Verificações feitas no Google Colab (registradas em `validacao-da-base.md`):
