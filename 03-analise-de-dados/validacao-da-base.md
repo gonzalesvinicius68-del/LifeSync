@@ -1,6 +1,6 @@
 # Validação da Base Tratada — LifeSync
 
-Validação feita em 06/11/2026 no Google Colab (notebook em `notebooks/`).
+Validação realizada em 06/11/2026 no Google Colab. Notebook final disponível em cadernos/LifeSync_Analise_Dados_final.ipynb.
 
 - Registros: 200 (original) e 200 (tratada)
 - Colunas da base tratada: 9
