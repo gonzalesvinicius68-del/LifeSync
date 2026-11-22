@@ -2,7 +2,7 @@
 
 Base: avaliações públicas do Mobills (Google Play Store), coletadas em 06/11/2026.
 Arquivo original: mobills_avaliacoes_originais.csv (200 registros, 4 colunas).
-Arquivo tratado: mobills_avaliacoes_tratadas.csv (200 registros, 9 colunas).
+Arquivo tratado: dados-tratados/mobills_avaliacoes_tratadas_coleta_06-11-2026.csv (200 registros, 9 colunas).
 
 ## Variáveis originais
 
